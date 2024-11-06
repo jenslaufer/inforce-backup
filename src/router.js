@@ -8,10 +8,10 @@ export const router = createRouter({
         {
             path: '',
             component: () => import('./pages/Index.vue'),
-            redirect: '/inforce-backup/0'
+            redirect: '/0'
         },
         {
-            path: '/inforce-backup/:id',
+            path: '/:id',
             props: {
                 buttonLabel: 'Sign Up',
                 errorColor: 'text-red-700',
@@ -22,8 +22,8 @@ export const router = createRouter({
                 content: [
                     {
                         "headline": "Inforce Backup",
-                        "subheadline": "Easy, secure, flexible, and automatic file backup for Windows",
-                        "cta": "Try out for free",
+                        "subheadline": "Easy, secure, flexible, and automatic file backup for Windows...",
+                        "cta": "Try Inforce Backup out for free",
                         "url": "https://www.inforce.de/Download/setupifcb.exe",
                         "explainer": ""
                     }
