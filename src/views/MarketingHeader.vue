@@ -8,7 +8,7 @@
         <p class="px-6 pb-4 text-gray-300 text-base font-normal w-1/1 lg:w-1/2">{{ explainer }}</p>
 
         <a :href="route"
-            class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:bg-blue-700">
+            class="mt-6 inline-block px-6 py-3 bg-red-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-700">
             {{ cta }}
         </a>
     </div>
