@@ -18,6 +18,6 @@ import { useGtm } from '@gtm-support/vue-gtm'
 const gtm = useGtm()
 
 onMounted(() => {
-    gtm.trackView("", `/404`)
+    gtm.trackView("", `not-found`)
 })
 </script>
