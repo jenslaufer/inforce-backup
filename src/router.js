@@ -24,7 +24,7 @@ export const router = createRouter({
                         "headline": "Inforce Backup",
                         "subheadline": "Easy, secure, flexible, and automatic file backup for Windows",
                         "cta": "Try out for free",
-                        "url": "#",
+                        "url": "https://www.inforce.de/Download/setupifcb.exe",
                         "explainer": ""
                     }
                 ]
